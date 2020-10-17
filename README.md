@@ -41,3 +41,8 @@ The dataset used for evaluating the proposed model is the ICIAR 2018 Grand Chall
 
 ## Results
 Our experiment is implemented in Python using Keras package with Tensorflow as the deep learning framework backend and run on Google Colaboratoryhaving the following system specifications: Nvidia Tesla T4 with 13 GB GPUmemory,1.59GHz GPU Memory Clock and 12.72 GB RAM.In our method, we have first trained the five classification models and recordedtheir validation and test accuracies. The validation accuracies have been usedfor determining the weights as mentioned before.Our method has been used for both the 2-class and the 4-class classificationproblems of the breast cancer histology images.  Table 3 records the 2-classvalidation and test accuracies for each classifier, and the 2-class test accuracy ofthe ensemble method. Table 4 records the 4-class test and validation accuracies of each classifier, and the 4-class test accuracy of the ensemble method
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
