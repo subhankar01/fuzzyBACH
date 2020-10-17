@@ -32,24 +32,20 @@ Fine-tuned, well established deep CNN architectures, containing millions of para
 
 By employing ensemble technique, the overall classification performance of our proposed method gets further refined, outperforming the existing research studies found in the literature,thereby becoming one of the most novel approaches in the field of breast cancer histology classification.
 
-<img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/VGG19.png" width="1000">
+<img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/VGG19.png" width="750">
 
 ## Flowchart of the proposed method
 
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/Method%20Flowchart.png" width="500">
 
 ## Dataset
-The dataset used for evaluating the proposed model is the ICIAR 2018 Grand Challenge on BreAst Cancer Histology (popularly known as BACH) images.The ICIAR 2018 Grand Challenge BACH dataset is publicly available underthe CC BY-NC-ND license and can be publicly accessed at [its official website](https://iciar2018-challenge.grand-challenge.org/). The datasetconsists of 400 annotated H&E stained histological breast tissue images of veryhigh resolution (2048x1536 pixels). Each image belongs to one of the four classesnamely: i) Benign tissue, ii) In-situ carcinoma, iii) Invasive carcinoma, and iv)Normal tissue, per class containing 100 images each.Each image is in RGB color mode and is stored in Tagged Image File For-mat (TIFF) with a magnification factor of 200 and pixel scale of 0.42μm x 0.42μm. The dataset is divided into training and test sets consisting of 300 and 100(25 randomly selected images taken from each category) breast cancer imagesrespectively.Table 2 shows the class distribution of the dataset before and afterimage augmentation.
+The dataset used for evaluating the proposed model is the ICIAR 2018 Grand Challenge on BreAst Cancer Histology (popularly known as BACH) images.The ICIAR 2018 Grand Challenge BACH dataset is publicly available underthe CC BY-NC-ND license and can be publicly accessed at [its official website](https://iciar2018-challenge.grand-challenge.org/). The datasetconsists of 400 annotated H&E stained histological breast tissue images of veryhigh resolution (2048x1536 pixels). Each image belongs to one of the four classesnamely: i) Benign tissue, ii) In-situ carcinoma, iii) Invasive carcinoma, and iv)Normal tissue, per class containing 100 images each.Each image is in RGB color mode and is stored in Tagged Image File Format (TIFF) with a magnification factor of 200 and pixel scale of 0.42μm x 0.42μm. The dataset is divided into training and test sets consisting of 300 and 100(25 randomly selected images taken from each category) breast cancer imagesrespectively.Table 1 shows the class distribution of the dataset before and afterimage augmentation.
+
+<img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/images.PNG" width="750">
+Examples of microscopic biopsy images in the dataset: (A) normal; (B) benign; (C) in situ carcinoma; and (D) invasive carcinoma
 
 ### Table 1: Dataset Overview
-| Classifier/Ensemble | Validation Accuracy |Test Accuracy |
-| ------------- | ------------- | ------------- | 
-| VGG16  | 100  |89|
-| VGG19  | 99.8  |94|
-| Xception| 100 | 95|
-| Inception V3|100|94|
-| InceptionResnetV2| 99.7| 93|
-|**Ensemble**|**-**|**96**|
+<img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/dataset.png" width="500">
 
 
 ## Results
