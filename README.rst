@@ -2,7 +2,7 @@
 Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling
 ==========================
 
-Our solution for [ICIAR 2018 Grand Challenge dataset on BreAst Cancer Histology images](https://iciar2018-challenge.grand-challenge.org/)
+Our solution for `ICIAR 2018 Grand Challenge dataset on BreAst Cancer Histology images`_(https://iciar2018-challenge.grand-challenge.org/)
 
 In the present work, we have proposed an approach for breast cancer image classification,implemented using Tensorflow and Keras, which at first uses five fine-tuned, pre-trained deep learning models for classification breast cancer histology im-ages. Then a fuzzy ensemble approach is introduced where the confidencescores of the five models are fused using Choquet integral, Coalition game theory and Information theory. The dataset used for evaluating the proposed model is the ICIAR 2018 Grand Challenge on Breast Cancer Histology (popularly known as BACH) images.  We have considered both 2-class (Malignant and Benign) and 4-class (Benign, In-situ carcinoma,Invasive carcinoma, and Normal tissue). To the best of our knowledge,our experimental results outperform many state-of-the-art methods.
 
