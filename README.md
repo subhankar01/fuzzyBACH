@@ -16,6 +16,7 @@ Contents
 - Dataset
 - Results
 - Dependencies
+- Contact
 
 ## Team Members
 
@@ -62,6 +63,7 @@ Our experiment is implemented in Python using Keras package with Tensorflow as t
 | InceptionResnetV2| 99.7| 93|
 |**Ensemble**|**-**|**96**|
 
+
 ### Table 3: Results of 4-class classification
 | Classifier/Ensemble | Validation Accuracy |Test Accuracy |
 | ------------- | ------------- | ------------- | 
@@ -71,5 +73,16 @@ Our experiment is implemented in Python using Keras package with Tensorflow as t
 | Inception V3|99|90|
 | InceptionResnetV2| 99| 91|
 |**Ensemble**|**-**|**95**|
+
+## Dependencies
+- [Tensorflow](https://www.tensorflow.org/)
+- [Keras](https://keras.io/)
+- [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/index.html#)
+
+## Contact
+In case of doubt or further collaboration, feel free to email us ! 😊
+- [Subhankar Sen (subhankarsen2001@gmail.com) ](subhankarsen2001@gmail.com)
+- [Prof. Ram Sarkar (ramjucse@gmail.com)](ramjucse@gmail.com)
+- [Pratik Bhowal (pratikbhowal1999@gmail.com)](pratikbhowal1999@gmail.com)
 
 
