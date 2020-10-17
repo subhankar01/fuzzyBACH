@@ -30,35 +30,37 @@ In the present work, we have proposed an approach for breast cancer image classi
 If you find this work useful for your publications, please consider citing:
 ## Method Overview<a name="3"></a>
 
-In this paper, our objective is to perform whole image wise classification of histology breast cancer images, unlike some previous works in this field which employed the technique of patch extraction for the classification purpose.  illustrates our proposed method. First, the H\&E stained breast cancer histology images are resized to 512x512 pixels using bicubic interpolation. The microscopy images are further pre-processed using stain normalization technique proposed . Image augmentation procedures are applied in order to counter the problem of limited training data and enhance the classification performance of the DCNN models.
+In this paper, our objective is to perform whole image wise classification of histology breast cancer images, unlike some previous works in this field which employed the technique of patch extraction for the classification purpose. [Fig 1](#8) shows the DCNN feature extraction and [Fig 2](#9) illustrates our proposed method. First, the H\&E stained breast cancer histology images are resized to 512x512 pixels using bicubic interpolation. The microscopy images are further pre-processed using stain normalization technique proposed . Image augmentation procedures are applied in order to counter the problem of limited training data and enhance the classification performance of the DCNN models.
 
 Fine-tuned, well established deep CNN architectures, containing millions of parameters and pre-trained over the popular ImageNet dataset (a large research training dataset consisting of 1.4M images and 1000 classes) such as VGG16,VGG19, Xception, InceptionV3 and InceptionResnetV2 are used. Here, sparse and high-level bottleneck features of low dimensionality are extracted from each augmented image using the proposed DCNN models. This dimensionality reduction step reduces the likeliness of  overfitting. These features are then fed as input to an MLP classifier which performs the 2-class and 4-class classification of the breast cancer histology images. The confidence scores obtained per image, across the 5 DCNN models used, are then combined into a confidence matrix. This confidence matrix is then sent as input to a fuzzy ensemble of the five DCNN models, using Choquet integral and Coalition game theory, which leverages the classification accuracy of our proposed approach.
 
 By employing ensemble technique, the overall classification performance of our proposed method gets further refined, outperforming the existing research studies found in the literature,thereby becoming one of the most novel approaches in the field of breast cancer histology classification.
 
+## Fig 1:<a name="8"></a>
+
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/VGG19.png" width="750">
 
-## Flowchart of the proposed method
+## Fig 2:Flowchart of the proposed method<a name="9"></a>
 
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/Method%20Flowchart.png" width="500">
 
 ## Dataset<a name="4"></a>
 
-The dataset used for evaluating the proposed model is the ICIAR 2018 Grand Challenge on BreAst Cancer Histology (popularly known as BACH) images.The ICIAR 2018 Grand Challenge BACH dataset is publicly available underthe CC BY-NC-ND license and can be publicly accessed at [its official website](https://iciar2018-challenge.grand-challenge.org/). The datasetconsists of 400 annotated H&E stained histological breast tissue images of veryhigh resolution (2048x1536 pixels). Each image belongs to one of the four classesnamely: i) Benign tissue, ii) In-situ carcinoma, iii) Invasive carcinoma, and iv)Normal tissue, per class containing 100 images each.Each image is in RGB color mode and is stored in Tagged Image File Format (TIFF) with a magnification factor of 200 and pixel scale of 0.42μm x 0.42μm. The dataset is divided into training and test sets consisting of 300 and 100(25 randomly selected images taken from each category) breast cancer imagesrespectively.Table 1 shows the class distribution of the dataset before and afterimage augmentation.
+The dataset used for evaluating the proposed model is the ICIAR 2018 Grand Challenge on BreAst Cancer Histology (popularly known as BACH) images.The ICIAR 2018 Grand Challenge BACH dataset is publicly available underthe CC BY-NC-ND license and can be publicly accessed at [its official website](https://iciar2018-challenge.grand-challenge.org/). The datasetconsists of 400 annotated H&E stained histological breast tissue images of veryhigh resolution (2048x1536 pixels). Each image belongs to one of the four classesnamely: i) Benign tissue, ii) In-situ carcinoma, iii) Invasive carcinoma, and iv)Normal tissue, per class containing 100 images each.Each image is in RGB color mode and is stored in Tagged Image File Format (TIFF) with a magnification factor of 200 and pixel scale of 0.42μm x 0.42μm. The dataset is divided into training and test sets consisting of 300 and 100(25 randomly selected images taken from each category) breast cancer imagesrespectively.[Table 1](#10) shows the class distribution of the dataset before and afterimage augmentation.
 
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/images.PNG" width="750">
 Examples of microscopic biopsy images in the dataset: (A) normal; (B) benign; (C) in situ carcinoma; and (D) invasive carcinoma
 
-### Table 1: Dataset Overview
+### Table 1: Dataset Overview<a name="10"></a>
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/dataset.png" width="500">
 
 
 ## Results<a name="5"></a>
 
-Our experiment is implemented in Python using Keras package with Tensorflow as the deep learning framework backend and run on Google Colaboratoryhaving the following system specifications: Nvidia Tesla T4 with 13 GB GPUmemory,1.59GHz GPU Memory Clock and 12.72 GB RAM.In our method, we have first trained the five classification models and recordedtheir validation and test accuracies. The validation accuracies have been usedfor determining the weights as mentioned before.Our method has been used for both the 2-class and the 4-class classificationproblems of the breast cancer histology images.  Table 2 records the 2-classvalidation and test accuracies for each classifier, and the 2-class test accuracy ofthe ensemble method. Table 3 records the 4-class test and validation accuracies of each classifier, and the 4-class test accuracy of the ensemble method
+Our experiment is implemented in Python using Keras package with Tensorflow as the deep learning framework backend and run on Google Colaboratoryhaving the following system specifications: Nvidia Tesla T4 with 13 GB GPUmemory,1.59GHz GPU Memory Clock and 12.72 GB RAM.In our method, we have first trained the five classification models and recordedtheir validation and test accuracies. The validation accuracies have been usedfor determining the weights as mentioned before.Our method has been used for both the 2-class and the 4-class classificationproblems of the breast cancer histology images.  [Table 2](#11) records the 2-classvalidation and test accuracies for each classifier, and the 2-class test accuracy ofthe ensemble method. [Table 3](#12) records the 4-class test and validation accuracies of each classifier, and the 4-class test accuracy of the ensemble method
 
 
-### Table 2: Results of 2-class classification
+### Table 2: Results of 2-class classification<a name="11"></a>
 | Classifier/Ensemble | Validation Accuracy |Test Accuracy |
 | ------------- | ------------- | ------------- | 
 | VGG16  | 100  |89|
@@ -69,7 +71,7 @@ Our experiment is implemented in Python using Keras package with Tensorflow as t
 |**Ensemble**|**-**|**96**|
 
 
-### Table 3: Results of 4-class classification
+### Table 3: Results of 4-class classification<a name="12"></a>
 | Classifier/Ensemble | Validation Accuracy |Test Accuracy |
 | ------------- | ------------- | ------------- | 
 | VGG16  | 97  |86|
@@ -85,7 +87,7 @@ Our experiment is implemented in Python using Keras package with Tensorflow as t
 - [OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/index.html#)
 
 ## Contact<a name="7"></a>
-(#7)
+
 In case of doubt or further collaboration, feel free to email us ! 😊
 - [Subhankar Sen (subhankarsen2001@gmail.com) ](mailto:subhankarsen2001@gmail.com)
 - [Prof. Ram Sarkar (ramjucse@gmail.com)](mailto:ramjucse@gmail.com)
