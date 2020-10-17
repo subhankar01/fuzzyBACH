@@ -81,8 +81,8 @@ Our experiment is implemented in Python using Keras package with Tensorflow as t
 
 ## Contact
 In case of doubt or further collaboration, feel free to email us ! 😊
-- [Subhankar Sen (subhankarsen2001@gmail.com) ](gmailto:subhankarsen2001@gmail.com)
-- [Prof. Ram Sarkar (ramjucse@gmail.com)](gmailto:ramjucse@gmail.com)
-- [Pratik Bhowal (pratikbhowal1999@gmail.com)](gmailto:pratikbhowal1999@gmail.com)
+- [Subhankar Sen (subhankarsen2001@gmail.com) ](mailto:subhankarsen2001@gmail.com)
+- [Prof. Ram Sarkar (ramjucse@gmail.com)](mailto:ramjucse@gmail.com)
+- [Pratik Bhowal (pratikbhowal1999@gmail.com)](mailto:pratikbhowal1999@gmail.com)
 
 
