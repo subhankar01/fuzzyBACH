@@ -11,13 +11,13 @@ In the present work, we have proposed an approach for breast cancer image classi
 
 ## Contents
 <!-- toc -->
-- [Team Members](#heading)
-- [Reference Paper](#heading)
-- [Method Overview](#heading)
-- [Dataset](#heading)
-- [Results](#heading)
-- [Dependencies](#heading)
-- [Contact](#heading)
+- [Team Members](##Team-Members)
+- [Reference Paper](##Reference-Paper)
+- [Method Overview](##Method-Overview)
+- [Dataset](##Dataset)
+- [Results](##Results)
+- [Dependencies](##Dependencies)
+- [Contact](##Contact)
 
 
 
