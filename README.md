@@ -1,6 +1,8 @@
 
 # Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling
 
+<img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/breast_cancer_classification_header.png" width="500">
+
 
 Our solution for [ICIAR 2018 Grand Challenge dataset on BreAst Cancer Histology images](https://iciar2018-challenge.grand-challenge.org/)
 
