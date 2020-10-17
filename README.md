@@ -10,6 +10,7 @@ In the present work, we have proposed an approach for breast cancer image classi
 
 
 ## Contents
+<!-- toc -->
 - [Team Members](#heading)
 - [Reference Paper](#heading)
 - [Method Overview](#heading)
@@ -18,7 +19,7 @@ In the present work, we have proposed an approach for breast cancer image classi
 - [Dependencies](#heading)
 - [Contact](#heading)
 
-<!-- toc -->
+
 
 ## Team Members
 - Subhankar Sen  [LinkedIn](https://www.linkedin.com/in/subhankar-sen-a62457190lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BP2gUaNhAT0uL2etYJDiGqw%3D%3D) 
