@@ -1,5 +1,6 @@
 
-# Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling
+# Fuzzy-Ensemble-of-Deep-Learning-Models-for-Breast-Cancer-Histology-Classification
+
 
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/cover.png" width="1000">
 
