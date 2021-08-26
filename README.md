@@ -94,8 +94,7 @@ Our experiment is implemented in Python using Keras package with Tensorflow as t
 
 In case of doubt or further collaboration, feel free to email us ! 😊
 - [Subhankar Sen (subhankarsen2001@gmail.com) ](mailto:subhankarsen2001@gmail.com)
-- [Prof. Ram Sarkar (ramjucse@gmail.com)](mailto:ramjucse@gmail.com)
 - [Pratik Bhowal (pratikbhowal1999@gmail.com)](mailto:pratikbhowal1999@gmail.com)
-- [Juan D. Velasquez Silva (jvelasqu@dii.uchile.cl)](mailto:jvelasqu@dii.uchile.cl)
+
 
 
