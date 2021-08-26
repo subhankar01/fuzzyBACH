@@ -45,6 +45,7 @@ If you find this work useful for your publications, please consider citing:
 
 ## Dataset<a name="4"></a>
 Click to access the [BACH dataset](https://iciar2018-challenge.grand-challenge.org/Dataset/)
+
 <img src="https://github.com/subhankar01/Breast-Cancer-Histology-Classification-using-deep-learning-and-Fuzzy-Ensembling/blob/main/assets/images.PNG" width="750">
 Examples of microscopic biopsy images in the dataset: (A) normal; (B) benign; (C) in situ carcinoma; and (D) invasive carcinoma
 
