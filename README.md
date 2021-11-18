@@ -32,6 +32,14 @@ In the present work, we have proposed an approach for breast cancer image classi
 ## Reference Paper<a name="2"></a>
 If you find this work useful for your publications, please consider citing:
 ```
+@article{bhowal2021fuzzy,
+  title={Fuzzy ensemble of deep learning models using choquet fuzzy integral, coalition game and information theory for breast cancer histology classification},
+  author={Bhowal, Pratik and Sen, Subhankar and Silva, Juan D Velasquez and Sarkar, Ram},
+  journal={Expert Systems with Applications},
+  pages={116167},
+  year={2021},
+  publisher={Elsevier}
+}
 ```
 ## Method Overview<a name="3"></a>
 
